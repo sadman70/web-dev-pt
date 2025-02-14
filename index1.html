@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style/portfolio1.css">
+</head>
+<body class="work-sans-normal">
+    <header class="header secondary-bg">
+        <nav>
+            <h3 class="nav-tittle">SADM<span class="text-primary">A</span>N</h3>
+            <ul>
+                <li><a class="dark-2" href="">Portfolio</a></li>
+                <li><a class="dark-2" href="">Blog</a></li>
+                <li>
+                    <button class="btn-primary">Hire Me</button> 
+                    <script>
+                        const button = document.getElementsByClassName('btn-primary')[0];
+                        button.addEventListener('click', function() {
+                            button.textContent = 'Hired!';
+                        });
+                    </script>
+                </li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greeting">Hi, I am</h4>
+                <h1 class="banner-tittle">Sadman Khandokar</h1>
+                <p class="banner-description">Welcome to My Portfolio.</p>
+                <div class="banner-buttons">
+                    <a href="SADMAN KHANDOKAR CV .pdf" download="download"><button class="btn-primary">Download CV</button></a>
+                    <a href="https://wa.me/qr/MHGRQS2P5UVBN1"><button class="btn-primary">Contact</button></a>
+                </div>
+            </div>
+            <img class="profile-pic" src="images/me.png" alt="Sadman Khandokar">
+        </div>
+    </header>
+    <main>
+       <section class="about secondary-bg">
+            <h3 class="section-tittle">About Me</h3>
+            <p class="section-description">I'm a designer & developer with a passion for web design. I enjoy developing simple, clean, and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets clients' requirements is our motto.</p>
+            <div class="about-items">  
+                <div class="about-item">
+                    <p class="item-tittle">Name:</p>
+                    <p class="item-description">Sadman Khandokar</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-tittle">Email:</p>
+                    <p class="item-description">sadmankhandoker3@gmail.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-tittle">Date of birth:</p>
+                    <p class="item-description">11 November 2005</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-tittle">From:</p>
+                    <p class="item-description">Dhaka, Bangladesh</p>
+                </div>
+            </div>
+       </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
